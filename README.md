@@ -7,7 +7,7 @@ You can configure it with a file called `.watchmakerc` in the directory you're r
 The file should contain some YAML in the following format:
 
 ```
-default_make:  # A list ofmake targets to run
+default_make:  # A list of make targets to run
 extensions:    # A list of file extensions that should trigger make. If not given, all files trigger make.
 path:          # A list of subdirectories to watch. If not given, all subdirectories under this one are watched.
 ```
